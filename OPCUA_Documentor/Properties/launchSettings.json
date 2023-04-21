@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OPCUA_Documentor": {
+      "commandName": "Project",
+      "commandLineArgs": "opc.tcp://172.16.11.237:16664"
+    }
+  }
+}
