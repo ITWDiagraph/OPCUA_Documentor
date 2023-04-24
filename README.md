@@ -7,13 +7,13 @@ This is a console application that connects to an OPC UA server and generates a 
 To use this application, run it from the command line and specify the URL of the OPC UA server as the only argument:
 
 ```bash
-dotnet run <opcua_server_url>
+OPCUA_Documentor.exe <opcua_server_url>
 ```
 
 For example:
 
 ```bash
-dotnet run opc.tcp://localhost:4840
+OPCUA_Documentor.exe opc.tcp://10.4.0.84:16664/
 ```
 
 The application will connect to the specified server, retrieve information about all the available methods, and generate a markdown document called `Methods.md` in the current directory.
